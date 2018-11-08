@@ -1,6 +1,5 @@
 def game(scenario):
 	success = 0 #measure of user's success in life
-	
 	if game("school"):
 	#scenario - You're overwhelmed with coming out and the ramifications of that on top of school.
 	#In the wake of a very difficult semester, you are on academic probation and have to decide how to move forward.
@@ -8,9 +7,9 @@ def game(scenario):
 	#option 2 - Try to finish on time at the recommended pace of 12-15 credits per semester
 	#option 3 - Switch to a part-time course load to make things more manageable
 		if raw_input.lower() == "option 1":
-		
+			success +=
 		elif raw_input.lower() == "option 2":
-		
+			success +=
 		elif raw_input.lower() == "option 3":
 			success += 5
 		else:
@@ -23,25 +22,25 @@ def game(scenario):
 	#option 2 - Something stable, probably corporate but pays decently
 	#option 3 - Whatever you can find - retail, food service, etc.
 		if raw_input.lower() == "option 1":
-		
+			success += 2
 		elif raw_input.lower() == "option 2":
-		
+			success += 3
 		elif raw_input.lower() == "option 3":
-		
+			success += 1
 		else:
 			raise typeError "Input is not an option."
 			
-	elif game("relationship")
-	#scenario - You're looking to date but aren't sure where to find someone
-	#option 1
-	#option 2
-	#option 3
+	elif game("housing")
+	#scenario - You're looking to rent an apartment or house with your partner. You need to choose a neighborhood and type of landlord.
+	#option 1 -
+	#option 2 -
+	#option 3 -
 		if raw_input.lower() == "option 1":
-		
+			success +=
 		elif raw_input.lower() == "option 2":
-		
+			success +=
 		elif raw_input.lower() == "option 3":
-		
+			success +=
 		else:
 			raise typeError "Input is not an option."
 
