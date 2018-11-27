@@ -40,13 +40,13 @@ class Question():
 			print "Input is not a valid option."
 			ask_question(question)
 
-	if success >= 10:
+Question(self.school)
+Question(self.job)
+Question(self.housing)
+
+if success >= 10:
 		print("Congratulations! You scraped your way through adversity and into a comfortable life")
 	if success >= 5 and < 10:
 		print("You've struggled through a lot and are still struggling. You don't know when or if things will get better but while you're waiting for your miracle, you've just gotta keep going")
 	if success < 5:
 		print("You've struggled and fallen more times than you can count. You feel like the world was built against you - it's left you marginalized, defeated, and homeless")
-
-Question(self.school)
-Question(self.job)
-Question(self.housing)
